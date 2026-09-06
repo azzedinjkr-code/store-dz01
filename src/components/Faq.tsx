@@ -24,7 +24,7 @@ export function Faq() {
   const [open, setOpen] = useState<number | null>(null);
 
   return (
-    <section id="faq" className="mx-auto w-full max-w-3xl px-4 pt-1 pb-8">
+    <section id="faq" className="mx-auto w-full max-w-3xl px-4 pt-3 pb-8">
       <h2 className="text-center text-2xl font-extrabold text-foreground">أسئلة شائعة</h2>
       <div className="mt-5 space-y-3">
         {QA.map((item, i) => {

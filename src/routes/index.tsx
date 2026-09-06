@@ -118,7 +118,7 @@ function Index() {
 
       <OrderForm />
 
-      <div className="mt-0">
+      <div className="mt-2">
         <Faq />
       </div>
 
