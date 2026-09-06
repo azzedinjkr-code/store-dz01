@@ -118,8 +118,7 @@ function Index() {
 
       <OrderForm />
 
-      {/* مسافة أقرب شوي - 24px */}
-      <div className="mt-6">
+      <div className="mt-2">
         <Faq />
       </div>
 
