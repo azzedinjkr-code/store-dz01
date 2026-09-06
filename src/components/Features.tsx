@@ -8,7 +8,7 @@ const FEATURES = [
 
 export function Features() {
   return (
-    <section className="mx-auto w-full max-w-3xl px-4 pt-0 pb-10 -mt-2">
+    <section className="mx-auto w-full max-w-3xl px-4 pt-0 pb-10">
 
       <div className="mt-0 space-y-3">
         {FEATURES.map((f, idx) => (
