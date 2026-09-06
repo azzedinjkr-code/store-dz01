@@ -223,7 +223,7 @@ export function OrderForm() {
 
 
   return (
-    <section id="order" className="mx-auto w-full max-w-lg px-4 pt-6 pb-2">
+    <section id="order" className="mx-auto w-full max-w-lg px-4 pt-2 pb-1">
       <h2 className="text-center text-[26px] font-black text-foreground">استمارة الطلب</h2>
 
       <form onSubmit={submit} noValidate className="mt-5 space-y-5 rounded-3xl border border-border bg-card p-6 shadow-soft sm:p-7">

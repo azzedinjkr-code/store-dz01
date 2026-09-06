@@ -99,7 +99,7 @@ function Index() {
       <Features />
 
       {/* قسم لماذا تختارها - الوصف الجديد */}
-      <section className="mx-auto w-full max-w-3xl px-4 pb-4">
+      <section className="mx-auto w-full max-w-3xl px-4 pb-1">
         <div className="rounded-3xl bg-primary p-6 text-center shadow-soft">
           <h2 className="text-xl font-extrabold text-primary-foreground">لماذا تختارها؟</h2>
           <p className="mx-auto mt-2 max-w-md text-sm leading-relaxed text-primary-foreground/85">
@@ -118,7 +118,7 @@ function Index() {
 
       <OrderForm />
 
-      <div className="mt-2">
+      <div className="mt-0">
         <Faq />
       </div>
 
